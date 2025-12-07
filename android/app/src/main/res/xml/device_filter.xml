@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ESP32-C3 USB-JTAG-Serial (native USB CDC) -->
+    <usb-device vendor-id="12346" product-id="4097" /> <!-- 0x303A / 0x1001 -->
+
+    <!-- Silicon Labs CP210x USB-UART Bridge -->
+    <usb-device vendor-id="4292" product-id="60000" /> <!-- 0x10C4 / 0xEA60 -->
+
+    <!-- WCH CH340 USB-UART -->
+    <usb-device vendor-id="6790" product-id="29987" /> <!-- 0x1A86 / 0x7523 -->
+
+    <!-- FTDI FT232 USB-UART -->
+    <usb-device vendor-id="1027" product-id="24577" /> <!-- 0x0403 / 0x6001 -->
+
+    <!-- Prolific PL2303 USB-UART -->
+    <usb-device vendor-id="1659" product-id="8963" /> <!-- 0x067B / 0x2303 -->
+</resources>

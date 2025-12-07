@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FAME Smart Flasher</string>
+
+    <!-- Home Screen -->
+    <string name="usb_port">USB Port</string>
+    <string name="select_port">Select port…</string>
+    <string name="no_devices">No USB devices found</string>
+    <string name="refresh_ports">Refresh ports</string>
+    <string name="firmware">Firmware</string>
+    <string name="select_file">Select File…</string>
+    <string name="advanced_settings">Advanced Settings</string>
+    <string name="baud_rate">Baud Rate</string>
+    <string name="flash_firmware">Flash Firmware</string>
+    <string name="cancel">Cancel</string>
+    <string name="show_serial_monitor">Show Serial Monitor</string>
+    <string name="clear">Clear</string>
+
+    <!-- Status Messages -->
+    <string name="status_ready">Ready to flash</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_syncing">Syncing with device…</string>
+    <string name="status_changing_baud">Changing baud rate…</string>
+    <string name="status_erasing">Erasing flash…</string>
+    <string name="status_flashing">Flashing firmware…</string>
+    <string name="status_verifying">Verifying…</string>
+    <string name="status_restarting">Restarting device…</string>
+    <string name="status_complete">Flash complete!</string>
+    <string name="status_error">Error: %1$s</string>
+
+    <!-- About Screen -->
+    <string name="about">About</string>
+    <string name="version">Version %1$s</string>
+    <string name="app_description">ESP32-C3 Firmware Flasher</string>
+    <string name="website">fyrbyadditive.com</string>
+    <string name="website_url">https://fyrbyadditive.com</string>
+    <string name="github">GitHub</string>
+    <string name="github_url">https://github.com/FyrbyAdditive/FAME-Smart-Flasher</string>
+    <string name="copyright">Copyright 2025</string>
+    <string name="company_name">Fyrby Additive Manufacturing &amp; Engineering</string>
+    <string name="ok">OK</string>
+
+    <!-- Errors -->
+    <string name="error_no_port">No port selected</string>
+    <string name="error_no_firmware">No firmware file selected</string>
+    <string name="error_invalid_firmware">Invalid firmware file</string>
+    <string name="error_connection_failed">Connection failed</string>
+    <string name="error_sync_failed">Failed to sync with device</string>
+    <string name="error_flash_failed">Flash operation failed</string>
+    <string name="error_usb_permission">USB permission denied</string>
+
+    <!-- Serial Monitor -->
+    <string name="serial_connected">Connected to %1$s</string>
+    <string name="serial_disconnected">Disconnected</string>
+    <string name="serial_reconnecting">Attempting to reconnect…</string>
+</resources>

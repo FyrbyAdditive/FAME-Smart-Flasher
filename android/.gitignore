@@ -1,0 +1,51 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio
+*.iml
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/*.iml
+.idea/navEditor.xml
+.idea/deploymentTargetDropDown.xml
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Keystore files
+*.jks
+*.keystore
+
+# APK/AAB files
+*.apk
+*.aab
+
+# Google Services
+google-services.json
+
+# Log files
+*.log
+
+# macOS
+.DS_Store
+
+# Kotlin
+*.kotlin_module
+
+# Proguard
+proguard/
+
+# Android Profiling
+*.hprof
