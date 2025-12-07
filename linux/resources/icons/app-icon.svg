@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="128" height="128" rx="24" fill="url(#bgGradient)"/>
+
+  <!-- Lightning bolt (flash symbol) -->
+  <path d="M72 16 L48 56 L60 56 L52 112 L88 60 L72 60 L80 16 Z"
+        fill="white"
+        stroke="none"/>
+
+  <!-- Chip outline -->
+  <rect x="32" y="40" width="64" height="48" rx="4"
+        fill="none"
+        stroke="white"
+        stroke-width="3"
+        opacity="0.6"/>
+
+  <!-- Chip pins -->
+  <g fill="white" opacity="0.6">
+    <!-- Top pins -->
+    <rect x="40" y="32" width="4" height="8"/>
+    <rect x="52" y="32" width="4" height="8"/>
+    <rect x="64" y="32" width="4" height="8"/>
+    <rect x="76" y="32" width="4" height="8"/>
+
+    <!-- Bottom pins -->
+    <rect x="40" y="88" width="4" height="8"/>
+    <rect x="52" y="88" width="4" height="8"/>
+    <rect x="64" y="88" width="4" height="8"/>
+    <rect x="76" y="88" width="4" height="8"/>
+  </g>
+</svg>

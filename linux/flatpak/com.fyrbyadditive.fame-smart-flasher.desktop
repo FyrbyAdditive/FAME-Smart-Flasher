@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=FAME Smart Flasher
+Comment=ESP32-C3 Firmware Flasher
+Exec=fame-smart-flasher
+Icon=com.fyrbyadditive.fame-smart-flasher
+Terminal=false
+Type=Application
+Categories=Development;Utility;
+Keywords=ESP32;firmware;flash;serial;
+StartupNotify=true

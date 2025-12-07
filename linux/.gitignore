@@ -1,0 +1,39 @@
+# Build directories
+build/
+flatpak-build/
+.flatpak-builder/
+repo/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Qt
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.autosave
+
+# Compiled files
+*.o
+*.obj
+*.so
+*.dylib
+fame-smart-flasher
+
+# Flatpak bundle
+*.flatpak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

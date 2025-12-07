@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.fyrbyadditive.fame-smart-flasher</id>
+
+  <name>FAME Smart Flasher</name>
+  <summary>ESP32-C3 Firmware Flasher</summary>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Proprietary</project_license>
+
+  <developer id="com.fyrbyadditive">
+    <name>Fyrby Additive Manufacturing &amp; Engineering</name>
+  </developer>
+
+  <description>
+    <p>
+      FAME Smart Flasher is a firmware flashing tool for ESP32-C3 devices.
+      It provides a simple graphical interface for uploading firmware to
+      ESP32-C3 microcontrollers via USB.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Automatic detection of ESP32-C3 devices</li>
+      <li>Support for single and multi-file firmware packages</li>
+      <li>Built-in serial monitor for device output</li>
+      <li>Multiple baud rate options for faster flashing</li>
+      <li>PlatformIO build directory support</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">com.fyrbyadditive.fame-smart-flasher.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main application window</caption>
+      <image>https://fyrbyadditive.com/fame-smart-flasher/screenshot.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://fyrbyadditive.com</url>
+  <url type="bugtracker">https://github.com/FyrbyAdditive/FAME-Smart-Flasher/issues</url>
+  <url type="vcs-browser">https://github.com/FyrbyAdditive/FAME-Smart-Flasher</url>
+
+  <content_rating type="oars-1.1" />
+
+  <releases>
+    <release version="1.0.0" date="2025-01-01">
+      <description>
+        <p>Initial release</p>
+        <ul>
+          <li>ESP32-C3 firmware flashing support</li>
+          <li>Serial monitor</li>
+          <li>Multi-file firmware support</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+  <requires>
+    <display_length compare="ge">400</display_length>
+  </requires>
+
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </supports>
+</component>
